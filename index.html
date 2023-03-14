@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f3bda5e226.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <audio controls>
+        <source src="" type="audio/mp3">
+    </audio>
+    <div class="container">
+        <div class="music-content">
+            <div id="bg-img">
+                <div class="blackplayer"></div>
+                <img src="./img/Images-20230313T102415Z-001/Images/ncs1.jpeg" alt="" id="blur">
+
+            </div>
+            <div id="menu">
+             <h5 class="moviename"></h5>
+            </div>
+            <div id="volume-conatiner">
+                <i class="fa-solid fa-volume-up" id="vol"></i>
+                <input type="range" class="slider" id="volumeslider" min="0" max="100" value="100" step="1">
+               
+
+            </div>
+            <div id="music-img">
+                <div id="cricle-image">
+                    <img src="./songs images/vandhu.jpeg" class="img">
+                </div>
+                <div id="music-tittle">
+                     <marquee behavior="" direction=""id="status"></marquee>
+                    <h6 id="artist"></h6>
+                </div>
+            </div>
+            <div id="randomdiv">
+                <button id="random"><i class="fa-solid fa-shuffle" id="suffle"></i></button>
+            </div>                
+            <div id="currentTime">
+                <span id="curttimetext">0:00</span>
+                <span id="durtimetext">0:00</span>
+            </div>
+            <div class="audio">
+  
+            </div>
+            <input type="range" class="seekslider" id="seekslider" max="" min="1" value="0" step="1" >
+            <div id="button">
+                
+                    <button class="pre" id="prevbtn"><i class="fa-solid fa-backward"></i></button>
+                    <button><i class="fa-solid fa-play play"></i></button>
+                    <button id="nextbtn"><i class="fa-solid fa-forward"></i></button>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="dom.js"></script>
+</body>
+
+</html>
